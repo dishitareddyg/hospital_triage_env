@@ -1,7 +1,7 @@
 import requests
 import random
 
-from agent.inference import choose_action
+from inference import choose_action
 from evaluation.metrics import MetricsTracker
 
 BASE_URL = "http://127.0.0.1:8000"
