@@ -80,5 +80,5 @@ async def main():
             print(f"[DEBUG] env.close() error: {e}", flush=True)
         log_end(success=success, steps=steps_taken, score=score, rewards=rewards)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     asyncio.run(main())
