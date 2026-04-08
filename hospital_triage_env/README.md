@@ -1,3 +1,16 @@
+---
+title: Hospital Triage Env Environment Server
+emoji: ☎️
+colorFrom: blue
+colorTo: yellow
+sdk: docker
+pinned: false
+app_port: 8000
+base_path: /web
+tags:
+  - openenv
+---
+
 # 🏥 AI-Powered Hospital Triage System
 
 ## 🚨 Problem Statement
